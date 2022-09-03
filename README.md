@@ -1,8 +1,7 @@
-<img width="1012" alt="maker" src="https://user-images.githubusercontent.com/105896/168986674-3b7169c1-c8ad-45dc-9d40-3653ff2766f4.png">
 
-# Perp Maker
+# Perp Maker Experiments
 
-A simple maker strategy for perpetual protocol v2. Please note that it uses a basic strategy and serves as a template for developers to create their own maker strategy. Use it at your own risk!
+An ongoing experiment regarding different maker strategies on Perp v2.
 
 ## Requirement
 
@@ -37,9 +36,12 @@ Edit the trading parameters in `src/configs/config.json`:
             // how many amount of USD (after leverage) to provide in the liquidity
             "LIQUIDITY_AMOUNT": 0,
 
-            // the offset to upper price and lower price of the liquidity range.
-            // e.g. if set to 0.5, it will provide liquidity with range [current price / 1.5, current price * 1.5]
-            "LIQUIDITY_RANGE_OFFSET": 0.5,
+            // the offset to lower price of the liquidity range.
+            // e.g. if set to 0.5, it will provide liquidity with range [current price / 1.5]
+            "LIQUIDITY_RANGE_OFFSET_LOWER": 0.5,
+            // the offset to upper price of the liquidity range.
+            // e.g. if set to 0.5, it will provide liquidity with range [current price * 1.5]
+            "LIQUIDITY_RANGE_OFFSET_UPPER":0.5,
 
             // the offset to adjust range liquidity.
             // e.g. if set to 0.1, it will adjust liquidity when the current price goes out of the range [market price / 1.1, market price * 1.1]
