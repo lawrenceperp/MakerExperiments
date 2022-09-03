@@ -1,0 +1,20 @@
+{
+    "PRICE_CHECK_INTERVAL_SEC": 86400,
+    "ADJUST_MAX_GAS_PRICE_GWEI": 100,
+    "MARKET_MAP": {
+        "vETH": {
+            "IS_ENABLED": true,
+            "LIQUIDITY_AMOUNT": 500,
+            "LIQUIDITY_RANGE_OFFSET_LOWER": 0.64,
+            "LIQUIDITY_RANGE_OFFSET_UPPER": 1.56,
+            "LIQUIDITY_ADJUST_THRESHOLD": 0.2
+        },
+        "vFLOW": {
+            "IS_ENABLED": true,
+            "LIQUIDITY_AMOUNT": 500,
+            "LIQUIDITY_RANGE_OFFSET_LOWER": 0.64,
+            "LIQUIDITY_RANGE_OFFSET_UPPER": 1.56,
+            "LIQUIDITY_ADJUST_THRESHOLD": 0.2
+        }
+    }
+}
