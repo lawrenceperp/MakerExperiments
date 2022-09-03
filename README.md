@@ -91,7 +91,4 @@ Deploy
 npm run build
 npm run sls:deploy
 ```
-# MakerExperiments
-# MakerExperiments
-# MakerExperiments
-# MakerExperiments
+
