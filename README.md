@@ -1,7 +1,7 @@
 
 # Perp Maker Experiments
 
-An ongoing experiment regarding different maker strategies on Perp v2.
+An ongoing experiment regarding different maker strategies on Perp v2. Current iteration of the strategy is to simply create a Perp v2 LP range with 5x concentrated liquidity with an even split of virtual assets. Also have added a hedge into this iteration.
 
 ## Requirement
 
